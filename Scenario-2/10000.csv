@@ -1,0 +1,14 @@
+Running 2m test @ http://10.106.117.58/wp-login.php
+  2 threads and 10000 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     8.98s   655.00ms   9.98s    74.15%
+    Req/Sec     9.70      8.97    50.00     70.50%
+  Latency Distribution
+     50%    9.07s 
+     75%    9.44s 
+     90%    9.74s 
+     99%    9.94s 
+  778 requests in 2.00m, 3.93MB read
+  Socket errors: connect 8981, read 1065, write 1192, timeout 631
+Requests/sec:      6.48
+Transfer/sec:     33.52KB
